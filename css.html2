@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Day 4 CSS Practice</title>
+  <style>
+  body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+h1 {
+    color:darkblue;
+    font-size:40px;
+}
+p {
+ color:#555;
+ font-size:18px;
+}
+img {
+    width: 200px;
+    border radius:10px;
+    box-shadow:0px 0px 0px gray;
+}
+
+  </style>
+</head>
+<body>
+<h1>Welcome to Pallavi's Webpage</h1>
+<p>This is Styled using CSS!</p>
+<img src="pallavi.jpg.jpeg" alt="my image">
+</body>
+</html>
