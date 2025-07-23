@@ -1,3 +1,36 @@
+body {
+  background: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+.feedback-container {
+  background: white;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #007BFF;
+}
+
+button {
+  background: #28a745;
+  color: white;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #218838;
+}
 .feedback-container {
   width: 400px;
   margin: 50px auto;
